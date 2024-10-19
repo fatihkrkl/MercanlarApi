@@ -1,0 +1,6 @@
+@MercanlarApi_HostAddress = http://localhost:5273
+
+GET {{MercanlarApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
