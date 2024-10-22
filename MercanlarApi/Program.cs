@@ -40,6 +40,13 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 }).WithName("GetWeatherForecast").WithOpenApi();
 
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers(); // Ensures that controller routes are mapped
+});
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
