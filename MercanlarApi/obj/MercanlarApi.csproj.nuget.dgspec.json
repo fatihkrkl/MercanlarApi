@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/fatih/RiderProjects/MercanlarApi/MercanlarApi/MercanlarApi.csproj": {}
+    "C:\\Users\\f.kurklu\\RiderProjects\\MercanlarApi\\MercanlarApi\\MercanlarApi.csproj": {}
   },
   "projects": {
-    "/home/fatih/RiderProjects/MercanlarApi/MercanlarApi/MercanlarApi.csproj": {
+    "C:\\Users\\f.kurklu\\RiderProjects\\MercanlarApi\\MercanlarApi\\MercanlarApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fatih/RiderProjects/MercanlarApi/MercanlarApi/MercanlarApi.csproj",
+        "projectUniqueName": "C:\\Users\\f.kurklu\\RiderProjects\\MercanlarApi\\MercanlarApi\\MercanlarApi.csproj",
         "projectName": "MercanlarApi",
-        "projectPath": "/home/fatih/RiderProjects/MercanlarApi/MercanlarApi/MercanlarApi.csproj",
-        "packagesPath": "/home/fatih/.nuget/packages/",
-        "outputPath": "/home/fatih/RiderProjects/MercanlarApi/MercanlarApi/obj/",
+        "projectPath": "C:\\Users\\f.kurklu\\RiderProjects\\MercanlarApi\\MercanlarApi\\MercanlarApi.csproj",
+        "packagesPath": "C:\\Users\\f.kurklu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\f.kurklu\\RiderProjects\\MercanlarApi\\MercanlarApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fatih/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\f.kurklu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -42,9 +47,33 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
@@ -58,12 +87,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.8, 8.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -72,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\f.kurklu\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
