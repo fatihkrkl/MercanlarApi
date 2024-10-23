@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MercanlarApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa2f29e10073f019c9cda9f8a0ffd3cc22ec07c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c227438af396dd16bec790c5654861aae1be1558")]
 [assembly: System.Reflection.AssemblyProductAttribute("MercanlarApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MercanlarApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

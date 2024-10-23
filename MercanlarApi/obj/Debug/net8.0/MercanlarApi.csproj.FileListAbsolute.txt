@@ -228,3 +228,6 @@ C:\Users\f.kurklu\RiderProjects\MercanlarApi\MercanlarApi\obj\Debug\net8.0\refin
 C:\Users\f.kurklu\RiderProjects\MercanlarApi\MercanlarApi\obj\Debug\net8.0\MercanlarApi.pdb
 C:\Users\f.kurklu\RiderProjects\MercanlarApi\MercanlarApi\obj\Debug\net8.0\MercanlarApi.genruntimeconfig.cache
 C:\Users\f.kurklu\RiderProjects\MercanlarApi\MercanlarApi\obj\Debug\net8.0\ref\MercanlarApi.dll
+C:\Users\f.kurklu\RiderProjects\MercanlarApi\MercanlarApi\bin\Debug\net8.0\MediatR.dll
+C:\Users\f.kurklu\RiderProjects\MercanlarApi\MercanlarApi\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\f.kurklu\RiderProjects\MercanlarApi\MercanlarApi\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

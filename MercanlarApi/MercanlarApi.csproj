@@ -24,13 +24,4 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="cqrs\Commands\Request\" />
-      <Folder Include="cqrs\Commands\Response\" />
-      <Folder Include="cqrs\Handlers\CommandHandlers\" />
-      <Folder Include="cqrs\Handlers\QueryHandlers\" />
-      <Folder Include="cqrs\Queries\Request\" />
-      <Folder Include="cqrs\Queries\Response\" />
-    </ItemGroup>
-
 </Project>

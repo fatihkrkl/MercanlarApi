@@ -1,13 +1,20 @@
-using MercanlarApi.Model;
+using MercanlarApi.cqrs.Handlers.CommandHandlers;
+using MercanlarApi.cqrs.Handlers.QueryHandlers;
+using MercanlarApi.Database;
+using MercanlarApi.Database.Entities;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure services
+builder.Services.AddTransient<CreateAracCommandHandler>();
+builder.Services.AddTransient<DeleteAracCommandHandler>();
+builder.Services.AddTransient<GetAllAracQueryHandler>();
+builder.Services.AddTransient<GetAracByPlakaQueryHandler>();
 builder.Services.AddControllers();
-builder.Services.AddDbContext<MercanDB>(options =>
+builder.Services.AddDbContext<MercanDb>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddScoped<AracService>();
 // Add Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -17,8 +24,8 @@ var app = builder.Build();
 // Apply migrations and create the database
 using (var scope = app.Services.CreateScope())
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<MercanDB>();
-    dbContext.Database.Migrate(); // This will apply any pending migrations
+    var MercanlarDb = scope.ServiceProvider.GetRequiredService<MercanDb>();
+    MercanlarDb.Database.Migrate(); // This will apply any pending migrations
 }
 
 // Configure the HTTP request pipeline
