@@ -17,7 +17,7 @@ public class AracController : ControllerBase
     GetAracByPlakaQueryHandler _getAracByPlakaQueryHandler;
     public AracController(
         
-        CreateAracCommandHandler createAracCommandHandler= new CreateAracCommandHandler(),
+        CreateAracCommandHandler createAracCommandHandler,
         DeleteAracCommandHandler deleteAracCommandHandler,
         GetAllAracQueryHandler getAllAracQueryHandler,
         GetAracByPlakaQueryHandler getByIdAracQueryHandler)

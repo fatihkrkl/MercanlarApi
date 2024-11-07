@@ -5633,7 +5633,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\f.kurklu\\.nuget\\packages\\": {}
+    "C:\\Users\\f.kurklu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5644,13 +5645,20 @@
       "packagesPath": "C:\\Users\\f.kurklu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\f.kurklu\\RiderProjects\\MercanlarApi\\MercanlarApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\f.kurklu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\f.kurklu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

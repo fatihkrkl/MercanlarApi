@@ -6,10 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 public class MercanDb : DbContext
 {
-    public MercanDb(DbContextOptions<MercanDb> options)
-        : base(options)
-    {
-    }
+    public MercanDb(DbContextOptions<MercanDb> options) : base(options) {}
 
     public DbSet<Arac> AracList { get; set; } // Change this to match your actual entity name
 
